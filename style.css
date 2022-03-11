@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+    background: rgb(171, 175, 209);
+}
+
+.fundo {
+    background: #e4ebf0;
+    padding: 20px 0;
+    
+}
+
+.titulo-principal {
+    padding-left: 15px; 
+    font-size: 30px;
+
+}
+
+.sub-título {
+    padding-left: 15px;
+    font-size: 15px;
+}
+
+#foto_01 { 
+    border-radius: 50px;
+    position: absolute;
+    width: 200px;
+    margin: 0 auto;
+    top: 50px; /*coloca no topo*/
+    right: 50px; /*rediriciona para direita*/
+}
+
+
+nav li {
+    display: inline; /* coloca os intens um ao lado do outro*/
+    margin: 0 0 0 25px; /*para dar espaços entre os itens*/
+}
+
+nav a {
+    text-transform:  uppercase; /*Muda pata letra maiuscula*/
+    color: #000000;
+    font-weight: bold; /*deica em negrito*/
+    font-size: 15px;
+}
+
+.h3 {
+    font-size: 25px;
+    text-align: center;
+    
+}
+
+.sobre-mim {
+    font-size: 15px;
+
+}
+
+.imagens{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;   
+}
+
+.imagens li{
+    display: inline-block; /*um ao lado do outro*/
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+}
+
+#html {
+    width: 55px;
+}
+
+#css {
+    width: 55px;
+}
+
+#js {
+    width: 140px;
+}
+ 
+/* #java {
+    width: 55px;
+} */
