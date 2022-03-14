@@ -43,8 +43,14 @@ nav li {
 nav a {
     text-transform:  uppercase; /*Muda pata letra maiuscula*/
     color: #000000;
-    font-weight: bold; /*deica em negrito*/
+    font-weight: bold; /*deixa em negrito*/
     font-size: 15px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: blue;
+    text-decoration: underline;
 }
 
 .h3 {
@@ -67,22 +73,102 @@ nav a {
 .imagens li{
     display: inline-block; /*um ao lado do outro*/
     text-align: center;
-    width: 30%;
+    width: 33%;
     vertical-align: top;
 }
 
+
 #html {
     width: 55px;
+}
+
+#html:hover {
+    width: 70px;
 }
 
 #css {
     width: 55px;
 }
 
+#css:hover {
+    width: 70px;
+}
+
 #js {
-    width: 140px;
+    width: 135px;
+}
+
+#js:hover {
+    width: 180px;
 }
  
 /* #java {
     width: 55px;
 } */
+
+#skills {
+    width: 1060px;
+    height: 230px;
+    margin: 0 auto;
+    padding: 15px 0;
+    
+}
+
+
+#hobbies {
+    width: 940px;
+    margin: 0 auto;
+    padding: 15px 0; 
+}
+
+.h4 {
+    font-size: 16px;
+}
+
+.hobbies li {
+    display: inline-block; /*um ao lado do outro*/
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 3px solid #000000;
+    border-radius: 10px;
+}
+
+.hobbies li:hover {
+    border-color: rgb(120, 71, 255);
+}
+
+.hobbies li:hover h4 {
+    font-size: 20px;
+}
+
+.controle {
+    width: 114px;
+}
+
+
+.tv {
+    width: 100px;
+}
+
+.viagem {
+    width: 100px;
+}
+
+footer {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.copyright {
+    color: #000000;
+    font-size: 20px;
+    margin: 20px 0 0; 
+    font-weight: bold;
+}
+
+
+
