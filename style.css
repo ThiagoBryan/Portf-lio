@@ -59,9 +59,20 @@ nav a:hover {
     
 }
 
+.h4 {
+    font-size: 16px;
+}
+
 .sobre-mim {
     font-size: 15px;
 
+}
+
+#skills {
+    width: 1060px;
+    height: 230px;
+    margin: 0 auto;
+    padding: 15px 0;
 }
 
 .imagens{
@@ -106,23 +117,11 @@ nav a:hover {
     width: 55px;
 } */
 
-#skills {
-    width: 1060px;
-    height: 230px;
-    margin: 0 auto;
-    padding: 15px 0;
-    
-}
-
 
 #hobbies {
     width: 940px;
     margin: 0 auto;
     padding: 15px 0; 
-}
-
-.h4 {
-    font-size: 16px;
 }
 
 .hobbies li {
@@ -141,9 +140,9 @@ nav a:hover {
     border-color: rgb(120, 71, 255);
 }
 
-.hobbies li:hover h4 {
+/* .hobbies li:hover h4 {
     font-size: 20px;
-}
+} */
 
 .controle {
     width: 114px;
@@ -155,8 +154,91 @@ nav a:hover {
 }
 
 .viagem {
-    width: 100px;
+    width: 108px;
 }
+
+#formacao-academica {
+    width: 940px;
+    margin: 40px auto;
+    padding: 20px 0; 
+}
+
+.formacao li {
+    display: inline-block; /*um ao lado do outro*/
+    text-align: center;
+    width: 47%;
+    vertical-align: top;
+    margin: 0 1%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 3px solid #000000;
+    border-radius: 10px;
+}
+
+.formacao li:hover {
+    border-color: rgb(120, 71, 255);
+}
+
+/* .formacao li:hover {
+    font-size: 20px;
+} */
+
+.estacio {
+    width: 400px;
+    height: 200px;
+    background-color: #e4ebf0;
+}
+
+.alura {
+    width: 400px;
+    height: 200px;
+    background-color: #e4ebf0;
+}
+
+#experiencia-profissional {
+    width: 940px;
+    margin: 40px auto;
+    padding: 20px 0; 
+}
+
+.experiencia li:hover {
+    border-color: rgb(120, 71, 255);
+}
+
+.decodificador {
+    width: 700px;
+    margin-left: 100px;
+    border: 3px solid #000000;
+    border-radius: 10px;
+}
+
+.decodificador:hover {
+    border-color: rgb(120, 71, 255);
+}
+
+.forca {
+    width: 400px;
+    height: 400px;
+    margin: 0 2%;
+    border: 3px solid #000000;
+    border-radius: 10px;
+}
+
+.forca:hover {
+    border-color: rgb(120, 71, 255);
+}
+
+.forca2 {
+    width: 400px;
+    height: 400px;
+    border: 3px solid #000000;
+    border-radius: 10px;
+}
+
+.forca2:hover {
+    border-color: rgb(120, 71, 255);
+}
+    
 
 footer {
     text-align: center;
