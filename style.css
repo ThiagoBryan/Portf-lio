@@ -31,7 +31,7 @@ body {
     width: 200px;
     margin: 0 auto;
     top: 50px; /*coloca no topo*/
-    right: 50px; /*rediriciona para direita*/
+    right: 50px; /*redireciona para direita*/
 }
 
 
@@ -63,9 +63,9 @@ nav a:hover {
     font-size: 16px;
 }
 
-.sobre-mim {
-    font-size: 15px;
-
+.sobre {
+    font-size: 20px;
+    font-style: arial;
 }
 
 #skills {
@@ -196,7 +196,7 @@ nav a:hover {
 }
 
 #experiencia-profissional {
-    width: 940px;
+    width: 700px;
     margin: 40px auto;
     padding: 20px 0; 
 }
@@ -207,42 +207,81 @@ nav a:hover {
 
 .decodificador {
     width: 700px;
-    margin-left: 100px;
+    margin-left: 10px;
     border: 3px solid #000000;
     border-radius: 10px;
+    margin-top: 20px;
 }
 
 .decodificador:hover {
     border-color: rgb(120, 71, 255);
 }
 
+.link-decodificador {
+    font-size: 20px;
+    padding: 20px;
+    text-decoration: none;
+    font-weight: bold; /*deixa em negrito*/
+    color: #000000;
+}
+
+.link-decodificador:hover {
+    color: blue;
+    text-decoration: underline;
+    text-transform:  uppercase; /*Muda pata letra maiuscula*/
+}
+
+.poisicao-img {
+    width: 650px;
+    margin: 40px auto;
+    padding: 10px 0; 
+    vertical-align: top;
+}
+
 .forca {
-    width: 400px;
-    height: 400px;
+    width: 500px;
+    height: 350px;
     margin: 0 2%;
     border: 3px solid #000000;
     border-radius: 10px;
+    margin-top: 20px;
 }
 
 .forca:hover {
     border-color: rgb(120, 71, 255);
 }
 
-.forca2 {
-    width: 400px;
-    height: 400px;
+/* .forca2 {
+    width: 350px;
+    height: 350px;
     border: 3px solid #000000;
     border-radius: 10px;
+    margin-top: 20px;
 }
 
 .forca2:hover {
     border-color: rgb(120, 71, 255);
+} */
+
+.link-forca {
+    font-size: 20px;
+    padding: 20px;
+    text-decoration: none;
+    font-weight: bold; /*deixa em negrito*/
+    color: #000000;
+}
+
+.link-forca:hover {
+    color: blue;
+    text-decoration: underline;
+    text-transform:  uppercase; /*Muda pata letra maiuscula*/
 }
     
 
 footer {
     text-align: center;
     padding: 40px 0;
+    background: rgb(96, 104, 89);
 }
 
 .copyright {
@@ -250,6 +289,28 @@ footer {
     font-size: 20px;
     margin: 20px 0 0; 
     font-weight: bold;
+}
+
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+
+form {
+    margin: 40px 0;
+}
+
+form lable {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+form input {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
 }
 
 

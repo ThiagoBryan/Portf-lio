@@ -5,9 +5,10 @@
         <meta charset="UTF-8">
         <title>Portfólio</title>
         
-        
+        <link rel="stylesheet" href="contato.css">
         <link rel="stylesheet" href="style.css">
     </head>
+    
 
     <body>
 <div class="fundo">
@@ -22,16 +23,17 @@
     <nav>
         <ul>
 
-            <li><a href="https://github.com/ThiagoBryan">Github</a></li>
-            <li><a href="https://www.linkedin.com/in/thiago-thurler-61220199/">Linkedin</a></li>
-            <li><a href="https://www.instagram.com/thiagobryan21/">Instagram</a></li>
-            <li><a href="">Currículo</a></li>
+            <li ><a href="https://github.com/ThiagoBryan" >Github &#129125;</a></li>
+            <li><a href="https://www.linkedin.com/in/thiago-thurler-61220199/">Linkedin &#129125;</a></li>
+            <li><a href="https://www.instagram.com/thiagobryan21/">Instagram &#129125;</a></li>
+            <li><a href="">Currículo &#129125;</a></li>
         </ul>
     </nav>
 </div>
         <div id="sobre-mim">
             <h3 class="h3">Sobre mim</h3>
-                <p class="sobre-mim">Tenho 29 anos...</p>
+                <p class="sobre">Tenho 29 anos, moro em Nova Friburgo, interior do RJ, sou formado em Ténólogo de Petróleo e Gás. <br>
+                    Sempre tive grande interesse na área de programação. Comecei em curso na Alura e fiz alguns projetos.</p>
         </div>
         <div id="skills">
             <h3 class="h3">Skills</h3>
@@ -77,23 +79,46 @@
         <div id="experiencia-profissional">
             <h3 class="h3">Experiência Profissional</h3>
             <li>
-                <h4>Decodificador de Texto</h4>
-                 <a href= "https://thiagobryan.github.io/Challenge-Alura-1-Decodificador-de-Texto/">Ver Demo</a> <!--ver aqui -->
-                <img class="decodificador" src="criptografar.PNG">
+            <h4>Decodificador de Texto Criado com HTML, CSS e JavaScript</h4>
+                 <a class="link-decodificador" href= "https://thiagobryan.github.io/Challenge-Alura-1-Decodificador-de-Texto/">Ver Demo &#129125;</a>
+                 <a class="link-decodificador" href="https://github.com/ThiagoBryan/Challenge-Alura-1-Decodificador-de-Texto">Repositório &#129125;</a>
+                 <img class="decodificador" src="criptografar.PNG">
             </li>
-            <li>
-                <h4>Jogo da Forca</h4>
-                <img class="forca" src="forca.PNG">
-                <img class="forca2" src="forca2.PNG">
-            </li>
-        </ul>
+            </ul>
+            <div>
+            <ul class="poisicao-img">
+                <li>
+                    <h4>Jogo da Forca Criado com HTML, CSS e JavaScript</h4>
+                    <a class="link-forca" href="https://thiagobryan.github.io/Alura-Challenge2-Oracle-ONE/">Ver Demo &#129125;</a>
+                    <a class="link-forca" href="https://github.com/ThiagoBryan/Alura-Challenge2-Oracle-ONE">Repositório &#129125;</a>
+                    <img class="forca" src="forca.PNG">
+                    <!-- <img class="forca2" src="forca2.PNG"> -->
+                </li>
+            </div>
+            </ul>
         </div>
 
         <div id="contato">
             <h3 class="h3">Contato</h3>
-                <p>Entre em contato comigo</p>
         </div>
   
+        <form> <!-- cria um formulario-->
+            <lable for="nomesobrenome">Nome e Sobrenome:</lable>
+            <input type="text" id="nomesobrenome"> <!-- cria uma caixa de texto-->
+            
+            <lable for="email">E-mail</lable>
+            <input type="text" id="email">
+
+            <lable for="telefone">Telefone</lable>
+            <input type="text" id="telefone">
+
+            <input type="submit" value="Enviar Formulário"> <!-- para criar um botao enviar-->
+        
+        </form>
+        
+
+
+
     </main>
 
     <footer>
