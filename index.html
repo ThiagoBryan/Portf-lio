@@ -15,7 +15,7 @@
             <h1 class="titulo-principal">Olá, meu nome é Thiago Bryan Gama Thurler e construo páginas web!</h1>
         </header>
     <main>
-        <div class="foto"><img id="foto_01" src="foto_01.jpg"></div>
+        <div class="foto"><img id="foto_01" src="foto_01.jpg" alt="minha foto"></div> <!--alt apenas para acessibilidade em uma imagem -->
    
         <h2 class="sub-título">Eu sou estudante de Programação e atualmente estou participando do projeto Oracle ONE na Alura.</h2>
        
@@ -31,15 +31,15 @@
 </div>
         <div id="sobre-mim">
             <h3 class="h3">Sobre mim</h3>
-                <p class="sobre">Tenho 29 anos, moro em Nova Friburgo, interior do RJ, sou formado em Ténólogo de Petróleo e Gás. <br>
+                <p class="sobre">Tenho 29 anos, moro em Nova Friburgo, interior do RJ, sou formado em Técnólogo de Petróleo e Gás. <br>
                     Sempre tive grande interesse na área de programação. Comecei em curso na Alura e fiz alguns projetos.</p>
         </div>
         <div id="skills">
             <h3 class="h3">Skills</h3>
             <ul class="imagens">
-                <li><img id= "html" src="html5.png"></li>
-                <li><img id= "css" src="css.png"></li>
-                <li><img id= "js" src="javascript.png"></li>
+                <li><img id= "html" src="html5.png" alt="logo html"></li>
+                <li><img id= "css" src="css.png" alt="logo css"></li>
+                <li><img id= "js" src="javascript.png" alt="logo js"></li>
                 <!-- <li><img id= "java" src="java.png"></li> -->
             </ul>
         </div>
@@ -48,15 +48,15 @@
                 <h3 class="h3">Hobbies</h3>
             <li>
                 <h4 class="h4">Jogar</h4>
-                <img class="controle" src="controle.png">  
+                <img class="controle" src="controle.png" alt="logo controle">  
             </li>
             <li>
                 <h4>Filmes e Séries</h4>
-                <img class="tv" src="tv.png">
+                <img class="tv" src=tv.png alt="logo tv">
             </li>
             <li>
                 <h4>Viajar</h4>
-                <img class="viagem" src="viajar.png">
+                <img class="viagem" src="viajar.png" alt="logo viajar">
             </li>
         </ul>
                 
@@ -66,10 +66,10 @@
         <div id="formacao-academica">
             <h3 class="h3">Formação Acadêmica</h3>
             <li>
-                <img class="estacio" src="estacio.PNG">
+                <img class="estacio" src="estacio.PNG" alt="logo estacio">
             </li>
             <li>
-                <img class="alura" src="Alura.PNG">
+                <img class="alura" src="Alura.PNG" alt="logo alura">
             </li>
         </ul>
         </div>
@@ -81,7 +81,7 @@
             <h4>Decodificador de Texto Criado com HTML, CSS e JavaScript</h4>
                  <a class="link-decodificador" href= "https://thiagobryan.github.io/Challenge-Alura-1-Decodificador-de-Texto/">Ver Demo &#129125;</a>
                  <a class="link-decodificador" href="https://github.com/ThiagoBryan/Challenge-Alura-1-Decodificador-de-Texto">Repositório &#129125;</a>
-                 <img class="decodificador" src="criptografar.PNG">
+                 <img class="decodificador" src="criptografar.PNG" alt="logo criptografar">
             </li>
             </ul>
             <div class="img-forca">
@@ -90,8 +90,8 @@
                         <h4>Jogo da Forca Criado com HTML, CSS e JavaScript</h4>
                         <a class="link-forca" href="https://thiagobryan.github.io/Alura-Challenge2-Oracle-ONE/">Ver Demo &#129125;</a>
                         <a class="link-forca" href="https://github.com/ThiagoBryan/Alura-Challenge2-Oracle-ONE">Repositório &#129125;</a>
-                            <img class="forca" src="forca.PNG">
-                            <!-- <img class="forca2" src="forca2.PNG"> -->
+                            <img class="forca" src="forca.PNG" alt="logo forca">
+                             <!-- <img class="forca2" src="forca2.PNG">  -->
                     </li>
                 </ul>
             </div>
@@ -102,20 +102,47 @@
         </div>
 
         <form> <!-- cria um formulario-->
-            <lable for="nomesobrenome">Nome e Sobrenome:</lable>
-            <input type="text" id="nomesobrenome"> <!-- cria uma caixa de texto-->
-            
-            <lable for="email">E-mail</lable>
-            <input type="text" id="email">
+            <lable for="nomesobrenome">Nome e Sobrenome:</lable>        <!-- torna o preenchimneto obrigatório -->
+            <input type="text" id="nomesobrenome" class="input-padrao" required> 
+                    <!-- cria uma caixa de texto-->
+            <lable for="email">E-mail</lable>                           <!-- cria um exemplo-->
+            <input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
         
             <lable for="telefone">Telefone</lable>
-            <input type="text" id="telefone">
+            <input type="tel" id="telefone" class="input-padrao" required placeholder="(XX) XXXXX-XXXX">
+
+            <lable for="mensagem">Mensagem</lable>
+                <textarea cols="70" rows="10" id="mensagem" class="input-padrao" required></textarea> <!-- text-area para entradas de mais de uma linha(texto)-->
+
+            
+            <fieldset>
+                <legend></legend>Forma de contato?</legend>                    <!--name para quando marcar um outro desmarcar -->
+                <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">E-mail</label>
+                 <!-- radio para colocar opções de marcação-->
+                                   
+                <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone">Telefone</label>
+                 <!-- radio para colocar opções de marcação-->
+                                                                                                                     <!--ja deixa um aopção marcada-->
+                <label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked>Whatsapp</label>
+                 <!-- radio para colocar opções de marcação-->
+            </fieldset>
+
+            <fieldset> <!-- funciona como uma div, mas para texto-->
+                <legend class="atendimento">Horário para o atendimento</legend><!-- nao existe p existe titulo(legend) -->
+                <select> <!-- para abrir um caixa de seleção-->
+                    <option>Manhã</option>
+                    <option>Tarde</option>
+                    <option>Noite</option>
+                </select>
+            </fieldset>
+
+            <lable class="checkbox"><input type="checkbox" checked>Gostaria de receber nossas novidades por e-mail?</lable>
+                                <!-- cria uma caixa para marca-->
+
         
-            <input type="submit" value="Enviar Formulário"> <!-- para criar um botao enviar-->
+            <input type="submit" value="Enviar Formulário" class="enviar"> <!-- para criar um botao enviar-->
         
         </form>
-
-
 
     </main>
 
@@ -124,13 +151,5 @@
     </footer>
 
     </body>
-
-
-
-
-
-
-
-
 
 </html>

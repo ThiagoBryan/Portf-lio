@@ -55,7 +55,9 @@ nav a:hover {
 
 .h3 {
     font-size: 25px;
+    padding: 15px;
     text-align: center;
+    clear: right;
     
 }
 
@@ -236,12 +238,14 @@ nav a:hover {
     margin: 40px auto;
     padding: 10px 0; 
     vertical-align: top;
+    
 }
 
-/* .img-forca {
+.img-forca {
     align-items: center;
     justify-content: center;
-} */
+    
+}
 
 .forca {
     width: 500px;
@@ -256,17 +260,18 @@ nav a:hover {
     border-color: rgb(120, 71, 255);
 }
 
-.forca2 {
+/* .forca2 {
     width: 500px;
     height: 350px;
     border: 3px solid #000000;
     border-radius: 10px;
     margin-top: 20px;
+    float: right;
 }
 
 .forca2:hover {
     border-color: rgb(120, 71, 255);
-}
+} */
 
 .link-forca {
     font-size: 20px;
@@ -305,18 +310,45 @@ form {
     margin: 40px 0;
 }
 
-form lable {
+
+form lable, form legend {
     display: block;
     font-size: 20px;
     margin: 0 0 10px;
 }
 
-form input {
-    display: block;
+.input-padrao {
+    display: inline-block;
     margin: 0 0 20px;
     padding: 10px 25px;
     width: 50%;
 }
 
+.atendimento {
+    margin-top: 10px;
+}
 
 
+.checkbox {
+    margin: 20px 0;
+}
+
+.enviar {
+    width: 30%;
+    padding: 15px 0;
+    background: orange;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s background;
+    cursor: pointer;
+
+}
+
+.enviar:hover {
+    background: darkorange;
+    transform: scale(1.2); /*aumenta todas as fontes*/
+    /*rotate(2deg) se quiser dar um efeito de rodar só colocar junto no transform*/
+}
