@@ -1,3 +1,4 @@
+
 body {
     margin: 0;
 	padding: 0;
@@ -17,6 +18,7 @@ body {
 .titulo-principal {
     padding-left: 15px; 
     font-size: 30px;
+    text-align: center;
 
 }
 
@@ -307,7 +309,7 @@ main {
 }
 
 form {
-    margin: 40px 0;
+    margin: 40px 20px;
 }
 
 
@@ -349,6 +351,7 @@ form lable, form legend {
 
 .enviar:hover {
     background: darkorange;
-    transform: scale(1.2); /*aumenta todas as fontes*/
+    transform: scale(1.1); /*aumenta todas as fontes*/
     /*rotate(2deg) se quiser dar um efeito de rodar só colocar junto no transform*/
+    /*transform: rotate(5.5);*/
 }
